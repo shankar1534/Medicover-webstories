@@ -18,14 +18,12 @@ const Header = () => {
  
 
 
-    // useEffect(() => {
-    //     const sessionUserData = JSON.parse(sessionStorage.getItem('user'));
-    //     if (sessionUserData) {
-    //         navigate('/header');
-    //     } else {
-    //         navigate('/');
-    //     }
-    // }, [navigate]);
+    useEffect(() => {
+        const sessionUserData = JSON.parse(sessionStorage.getItem('user'));
+        if (!sessionUserData) {
+            navigate('/'); // Optionally redirect to home if no user is found
+        }
+    }, [navigate]);
 
     const logout = () => {
         sessionStorage.removeItem('user');

@@ -19,7 +19,7 @@
     display: block;
     top: 0px;
     position: relative;
-    max-width: 262px;
+    /* max-width: 262px; */
     background-color: RGB(71 221 191);
     border-radius: 4px;
     padding: 32px 24px;
@@ -28,6 +28,7 @@
     z-index: 0;
     overflow: hidden;
     border: 1px solid #f2f8f9;
+    margin: auto;
   
     &:hover {
       transition: all 0.1s ease-out;

@@ -8,8 +8,6 @@ import Dashboard from './components/pages/dashboard';
 import Storyscroll from './components/pages/storyscroll'
 import Header from './components/pages/header';
 import Imagefirebase from './components/pages/firebaseimgurl'
-// import { Provider } from 'react-redux';
-// import store from './redux/store';
 
 
 const App = () => {

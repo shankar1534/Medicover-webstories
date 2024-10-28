@@ -53,7 +53,8 @@ const Login = () => {
     };
 
     return (
-        <div className="container mt-5 col-xl-4">
+        <div style={{background:'#E0F7FA',width:'100vw',height:'100vh',position:'fixed'}}>
+        <div className="container mt-5 col-xl-4" >
             {/* <h2 className="text-center mb-4">Login</h2> */}
             <form onSubmit={handleLogin} className="p-4 border rounded shadow">
                 <div className="mb-3">
@@ -83,6 +84,7 @@ const Login = () => {
 
             {success && <p className="mt-3 text-success">{success}</p>}
             {error && <p className="mt-3 text-danger">{error}</p>}
+        </div>
         </div>
     );
 };
