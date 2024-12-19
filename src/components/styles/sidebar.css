@@ -14,6 +14,7 @@
 .isActive span{
     display: none;
 }
+
 .isActive{
     width: 80px !important;
     transition: all 0.2s ease;
