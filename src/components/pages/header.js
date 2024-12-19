@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "../styles/header.css";
 import { Icon } from "@iconify/react";
 import User from "../../assets/images/user.png";
-import { Link } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from "react-router-dom";
 
 
 const Header = ({ eventSidebarClick, toggleTheme, isLightTheme, storyZindex}) => {
