@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import '../styles/editstory.css'
-import { styled } from "@mui/material";
+// import { styled } from "@mui/material";
 
 const AddStory = ({foreditId}) => {
-  const [singlestorydata, setsinglestorydata] = useState("");
+  // const [singlestorydata, setsinglestorydata] = useState("");
   const [userName,setuserName] = useState()
   const [categories, setCategories] = useState();
 
@@ -48,7 +48,7 @@ let thestoryidis = foreditId
         const fetchedData = data.data;
 
         // Map API data to state
-        setsinglestorydata(fetchedData);
+        // setsinglestorydata(fetchedData);
 // console.log('adfasfdddddddddddddddddddddddd',fetchedData)
         // Set SEO fields
         setSeoTitle(fetchedData.title || "");

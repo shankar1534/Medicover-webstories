@@ -51,7 +51,7 @@ const StatCard = ({ title, count, icon, bgColor, trendText, trendIcon, trendColo
           <p className="fw-medium text-sm text-primary-light mb-0 d-flex align-items-center gap-2 yesterday-content"
            >
             {<span className={`d-inline-flex align-items-center gap-1 ${trendColor}`}>
-              <Icon icon={trendIcon} style={{color: trendIcon =="bxs:up-arrow" ? "green" : "red"}} className="text-xs"  /><span style={{color: trendIcon =="bxs:up-arrow" ? "green" : "red"}}>{trendText}</span> 
+              <Icon icon={trendIcon} style={{color: trendIcon ==="bxs:up-arrow" ? "green" : "red"}} className="text-xs"  /><span style={{color: trendIcon ==="bxs:up-arrow" ? "green" : "red"}}>{trendText}</span> 
             </span>}
             Yesterday Views
           </p>

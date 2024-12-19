@@ -8,7 +8,7 @@ const Login = () => {
     const [name, setName] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-    const [success, setSuccess] = useState('');
+    // const [success, setSuccess] = useState('');
     const navigate = useNavigate(); 
 
     useEffect(() => {
@@ -39,7 +39,7 @@ console.log('helloo')
             const data = await response.json();
 
             if (response.ok && data.message === "Login successful") {
-                setSuccess('Login Successful');
+                // setSuccess('Login Successful');
                 setError('');
 
                 sessionStorage.setItem('user', JSON.stringify(userData.username));

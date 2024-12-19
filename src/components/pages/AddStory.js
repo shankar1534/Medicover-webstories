@@ -41,7 +41,7 @@ function Addstory() {
     setSeo({ ...seo, [event.target.name]: event.target.value });
   };
 
-  const formattedDateTime = new Date().toISOString(); 
+  // const formattedDateTime = new Date().toISOString(); 
   const idGenerate = Date.now(); 
 
   // Handle form submission
