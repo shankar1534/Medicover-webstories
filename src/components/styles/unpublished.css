@@ -1,0 +1,31 @@
+.reels-section{
+    position: fixed;
+    top: 30px;
+    width: 76%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #808080c9;
+}
+
+.close-button{
+    position: fixed;
+    right: 60px;
+    z-index: 30;
+    top:30px;
+    color: white;
+}
+.close-button:hover{
+    color: rgb(212, 203, 203);
+    cursor: pointer;
+    font-size: 45px;
+    transition:0.2s;
+
+}
+
+.content-section{
+    bottom: 50px;
+    position: absolute;
+    text-align: center;
+}

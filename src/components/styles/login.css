@@ -1,0 +1,49 @@
+.login-section {
+    background: rgb(224, 247, 250);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/images/bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+  }
+  
+.icon-field{
+    position: relative;
+}
+
+.icon-field .icon {
+    position: absolute;
+    top: 0px;
+    inset-inline-start: 0;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #ffffff;
+    background: #FF9F29;
+    padding: 0px;
+}
+	.icon-field .form-control {
+    padding-inline-start: 3.5rem;
+	}
+    .btn-warning-600 {
+        background-color: var(--warning-600);
+        color: #fff;
+        border-color: var(--warning-600);
+        background-color: #FF9F29;
+    }
+    .btn-warning-600:hover{
+        background-color: #f39016 ;
+        color: white;
+    }
+
+    .card-body{
+        background-color: none !important;
+    }

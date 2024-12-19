@@ -1,0 +1,33 @@
+.add-category{
+    background-color: white;
+}
+
+.input-group{
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.browser-btn{
+    width: 70px;
+    height: 28px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 8px !important;
+    color: white;
+    background-color:#BFBFBF;
+    ;
+}
+
+.browser-btn:hover{
+    background-color: #cbc1c1;
+
+}
+
+.browser-btn:focus {
+    outline: none;
+    border: 2px solid #007bff; /* Adjust color as needed */
+  }

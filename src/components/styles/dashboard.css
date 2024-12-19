@@ -1,60 +1,138 @@
+
+.dashboard-section-main{
+  width: 96%;
+  margin: auto;
+}
 .card {
-    border: 1px solid #007bff; 
+    border: none;
+    }
+    
+    .card-body {
+        border-radius: 5px; 
+    }
+    
+    .card-footer {
+        background-color: #ffffff; 
+        font-weight: bold;
+    }
+    .card2:nth-child(2){
+      background-color:#ff5e79;
+    }
+    
+    .card2 {
+        display: block;
+        top: 0px;
+        position: relative;
+        background-color: RGB(71 221 191);
+        border-radius: 4px;
+        padding: 32px 24px;
+        margin: 12px;
+        text-decoration: none;
+        z-index: 0;
+        overflow: hidden;
+        border: 1px solid #f2f8f9;
+        margin: auto;
+      
+        &:hover {
+          transition: all 0.1s ease-out;
+          box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+          top: -4px;
+          border: 1px solid #cccccc;
+          background-color: white; 
+          text-decoration: none;
+        }
+      
+        &:before {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          top: -16px;
+          right: -16px;
+          background: #00838d;
+          height: 32px;
+          width: 32px;
+          border-radius: 32px;
+          transform: scale(2);
+          transform-origin: 50% 50%;
+          transition: transform 0.18s ease-out;
+        }
+      
+        &:hover:before {
+          transform: scale(2.10);
+        }
+      }
+
+      .dashboard-cards-icons{
+        width: 50px;
+        height: 50px;
+        background-color: green;
+
+      }
+
+      .count-heading{
+        font-weight: 600;
+        font-size: 28px;
+      }
+
+
+      /* dashboard.css */
+.bg-icon-color-1 {
+  background-color: rgb(0,184,242); 
+}
+.bg-icon-color-2 {
+  background-color: #8252e9; 
+}
+.bg-icon-color-3 {
+  background-color: #e30a0a; 
+}
+.bg-icon-color-4 {
+  background-color: #45b369; 
+}
+.bg-icon-color-5 {
+  background-color: #198754; 
+}
+.bg-icon-color-6 {
+  background-color: #0dcaf0; 
+}
+.bg-icon-color-7 {
+  background-color: #0d6efd; 
+}
+.bg-icon-color-8 {
+  background-color: #ffc107; 
 }
 
-.card-body {
-    background-color: #f0f8ff; 
-    border-radius: 5px; 
+/* Targeting the .card-body-section based on the card's position */
+.card-body-section1 {
+  background: linear-gradient(to right, #E6F9FF, #FEFFFF);
 }
 
-.card-footer {
-    background-color: #ffffff; 
-    font-weight: bold;
-}
-.card2:nth-child(2){
-  background-color:#ff5e79;
+.card-body-section2 {
+  background: linear-gradient(to right, #F7E9FF, #FFFEFD);
 }
 
-.card2 {
-    display: block;
-    top: 0px;
-    position: relative;
-    /* max-width: 262px; */
-    background-color: RGB(71 221 191);
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    border: 1px solid #f2f8f9;
-    margin: auto;
-  
-    &:hover {
-      transition: all 0.1s ease-out;
-      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-      top: -4px;
-      border: 1px solid #cccccc;
-      background-color: white; 
-      text-decoration: none;
-    }
-  
-    &:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: -16px;
-      right: -16px;
-      background: #00838d;
-      height: 32px;
-      width: 32px;
-      border-radius: 32px;
-      transform: scale(2);
-      transform-origin: 50% 50%;
-      transition: transform 0.18s ease-out;
-    }
-  
-    &:hover:before {
-      transform: scale(2.10);
-    }
-  }
+.card-body-section3 {
+  background: linear-gradient(to right, #E6EBFF, #FFFFFF); /* Card 3 */
+}
+
+.card-body-section4 {
+  background: linear-gradient(to right, #E8FFF5, #FFFFFF); /* Card 4 */
+}
+
+.card-body-section5 {
+  background: linear-gradient(to right, #FFEEEE, #FFFCFC); /* Card 5 */
+}
+
+.card-body-section6 {
+  background: linear-gradient(to right, #E6F9FF, #FEFFFF); /* Card 6 */
+}
+
+.card-body-section7 {
+  background: linear-gradient(to right, #F7E9FF, #FFFEFD); /* Card 7 */
+}
+
+.card-body-section8 {
+  background: linear-gradient(to right, #E6EBFF, #FFFFFF); /* Card 8 */
+}
+.yesterday-content{
+  padding:10px 0px
+}

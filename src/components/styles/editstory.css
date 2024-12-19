@@ -1,0 +1,17 @@
+.custom-file-input-unique::file-selector-button {
+    padding: 5px 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-file-input-unique::file-selector-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-file-input-unique {
+    color: transparent; /* Hide the "No file chosen" text */
+  }
+  

@@ -1,0 +1,35 @@
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto 70px;
+    background: #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.profile-pic .cameraicon{
+    position: absolute;
+    z-index: -1;
+    opacity:.5;
+}
+
+.profile-pic .propic{
+    width:100%;
+    height:100px;
+    object-fit:cover;
+}
+
+.upload-para{
+    width: 100%;
+    text-align: center;   
+}
+
+/* .setting{
+    padding-top: 30px;  
+    padding: 40px;   
+} */

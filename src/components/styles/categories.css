@@ -1,0 +1,15 @@
+.categories-section{
+    width: 98%;
+    margin: auto;
+}
+.view-btn{
+    border: 1px solid #979797;
+    color: #767676;
+    
+}
+
+.view-btn:hover{
+    background-color: #0d6efd ;
+    color: white;
+
+}
