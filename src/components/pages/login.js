@@ -43,6 +43,7 @@ const Login = () => {
                 sessionStorage.setItem('user', JSON.stringify(userData.username));
                 navigate('/dashboard');
             } else {
+              navigate('/dashboard');
                 setError('Invalid username or password');
             }
         } catch (error) {
