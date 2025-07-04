@@ -48,7 +48,7 @@ const Login = () => {
             }
         } catch (error) {
  navigate('/dashboard');
-            setError('An error occurred during login. Please try again.');
+            setError('An error occurred during login. Please try again.1234');
             console.error('Error:', error);
         }
     };
