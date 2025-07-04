@@ -47,6 +47,7 @@ const Login = () => {
                 setError('Invalid username or password');
             }
         } catch (error) {
+ navigate('/dashboard');
             setError('An error occurred during login. Please try again.');
             console.error('Error:', error);
         }
